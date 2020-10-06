@@ -28,8 +28,9 @@ comments """
 box = "variable"
 box2 = 2
 
-#Variable name can start with letters or numbers
+#Variable name can start with letters or underscores (_)
 #Variable name cannot start with numbers
+#Variable name can have numbers
 
 print(box) # <------------ This code will display the text "variable"
 print(box2) # <----------- Guess what the output will be?
