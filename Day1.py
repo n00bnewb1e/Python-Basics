@@ -22,12 +22,17 @@ comments """
 #numbers, string(text), or complex
 #Numbers can be int(3) or float(3.0)
 
-box = variable
+#String(text) should be enclosed in quotes
+#Whereas numbers should not have quotes
+
+box = "variable"
+box2 = 2
 
 #Variable name can start with letters or numbers
 #Variable name cannot start with numbers
 
 print(box) # <------------ This code will display the text "variable"
+print(box2) # <----------- Guess what the output will be?
 
 #Multiple variables can be assigned in a single line
 
